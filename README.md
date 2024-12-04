@@ -1,1 +1,0 @@
-# Maze-CTF
