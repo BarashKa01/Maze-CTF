@@ -15,7 +15,7 @@ function puzzle2(value) {
 }
 
 function puzzle3(value) {
-    if(value.includes('script')) {
-        alert("Seems that you try to fool the Architect... You're the best Ninja i've seen... CTF done !")
+    if(value.includes('<script>') && value.includes('alert') && value.includes('</script>')) {
+        alert("Seems that you fooled the Architect... You're the best Ninja i've seen... CTF done !")
     }
 }
