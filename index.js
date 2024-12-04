@@ -1,6 +1,5 @@
 function puzzle1(value) {
-    console.log(value);
-    if(value === "I am a ninja") {
+    if(value === atob('SSBhbSBhIG5pbmph')) {
         return location.replace('./coucou.html')
     }
 }
