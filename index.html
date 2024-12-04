@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Coucou</title>
+    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
-    <h1>Coucou</h1>
+    <div class="container">
+        <h1>Maze CTF</h1>
+        <p>
+            Little ninja, try to find your way<br>
+
+            The architect loves architectures... Here is the code : SSBhbSBhIG5pbmph
+        </p>
+        <div>
+            <input type="text">
+            <button>Find a way</button>
+        </div>
+    </div>
+    <script>
+        const submitButt = document.querySelector('button');
+
+        submitButt.addEventListener('click', () => {
+            const inputVal = document.querySelector('input').value;
+            puzzle1(inputVal)
+        });
+    </script>
 </body>
 </html>
