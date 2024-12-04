@@ -9,14 +9,12 @@ function puzzle1(value) {
 }
 
 function puzzle2(value) {
-    console.log(value, atob('RmluYWxseQ=='));
     if(value === atob('RmluYWxseQ==')) {
         return location.assign('./'+atob(puzzlePath3)+'.html')
     }
 }
 
 function puzzle3(value) {
-    console.log(value);
     if(value.includes('script')) {
         alert("Seems that you try to fool the Architect... You're the best Ninja i've seen... CTF done !")
     }
