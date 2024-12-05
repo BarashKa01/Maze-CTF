@@ -11,6 +11,24 @@ body {
     color: var(--color);
   }
 
+.wtf {
+  width: 100%;
+  height: 500vh;
+  background: url("./img/gif3.gif") repeat;
+}
+
+.wtf2 {
+  width: 50%;
+  height: 500vh;
+  background: url("./img/gif1.gif") repeat;
+}
+
+.wtf3 {
+  width: 50%;
+  height: 500vh;
+  background: url("./img/gif2.gif") repeat;
+}
+
 .container {
   display: flex;
   flex-direction: column;
